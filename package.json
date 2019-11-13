@@ -1,0 +1,21 @@
+{
+  "name": "dnote",
+  "version": "0.0.1",
+  "description": "Experimental Dnote CLI with node.js",
+  "repository": "https://github.com/dnote/node-cli",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc ./src/index.ts --outDir ./dist",
+    "build:watch": "tsc --watch ./src/index.ts --outDir ./dist"
+  },
+  "author": "Monomax Software Pty Ltd",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "sqlite3": "^4.1.0",
+    "typescript": "^3.7.2",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.7"
+  }
+}
